@@ -6,6 +6,14 @@ public class variables {
         int your_name= 865;
         System.out.println(your_name);
         System.out.println(my_number);
+        boolean isVegitarien = true;
+        System.out.println(isVegitarien);
+         float myfloat=5f;
+        System.out.println(myfloat);
+       double mydouble= 5.3;
+        System.out.println(mydouble);
+        String wishes="GOOD LUCK";
+        System.out.println(wishes);
     }
 
 }
