@@ -2,7 +2,7 @@ package challenge;
 
 import java.util.Scanner;
 
-public class challenge40b {
+public class challenge39b {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
 

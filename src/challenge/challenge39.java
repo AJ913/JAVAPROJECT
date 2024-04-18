@@ -4,30 +4,23 @@ import java.util.Scanner;
 
 public class challenge39 {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");
-        int num=sc.nextInt();
-        boolean isPalindrome=isPalindrom(num);
-        if(isPalindrome){
-            System.out.println("The given number is palindrome");
-        }
-        else{
-            System.out.println("The given number is not palindrome");
-        }
+        int n = sc.nextInt();
+        pattern(n);
     }
 
-    public static boolean isPalindrom(int num) {
-        int rem=0;
-        int i=-1;
-        int Originalnumber=num;
-        int digit=0;
-        while(num>=i){
-            rem=num%10;
-            digit=digit*10+rem;
-            num=num/10;
-            i++;
+    public static void pattern(int n) {
+        int rows = 0;
+        while (rows < n) {
+            System.out.print("*");
+            int i = 0;
+            while (i < rows) {
+                System.out.print(" *");
+                i++;
+            }
+            System.out.println();
+            rows++;
         }
-        return Originalnumber==digit;
-
     }
 }
