@@ -15,7 +15,7 @@ public class challenge44 {
     }
 
     public static int[] deleteNumber(int[] numarr, int numToDelete) {
-    
+    return numarr;
 
     }
 }
